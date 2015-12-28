@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="FileNotFoundException">Imposible anexar la imágen</string>
+     <string name="ImagenGuardada">Imágen QR guardada</string>
+     <string name="ContribuyenteGuardado">Datos del Contribuyente guardados</string>
+     
+     
+     <string name="registro_cliente_delete">Cliente eliminado</string>
+     <string name="registro_factura_delete">Factura eliminada</string>
+     
+     <string name="registro_cliente_delete_constraint">IMPOSIBLE ELIMINAR Cliente asignado a una o varias Facturas</string>
+    <string name="facturas_add_cliente_constraint">DEBE DEFIR UNO O VARIOS Clientes</string>
+    
+     
+     <string name="registro_update">Registro actualizado</string>
+     <string name="registro_add">Nuevo Registro guardado</string>
+     <string name="registro_edit">Registro guardado</string>
+     
+     <string name="registro_activado">Factura Activada</string>
+     <string name="registro_cancel">Factura Cancelada</string>
+     <string name="registro_msg_eliminar">¿Eliminar?</string>
+     <string name="folio_save">Fecha de folio guardado</string>
+     
+     <string name="error_update">Imposible actualizar el registro</string>
+     <string name="error_save">Imposible guardar el registro</string>
+     <string name="error_delete">Imposible eliminar el registro</string>
+     <string name="generando_factura">Generando Factura</string>
+     <string name="campo_requerido">Requerido</string>
+      <string name="formato_invalido">Inválido</string>
+     <string name="msg_loader_process">&#8230; cargando datos &#8230;</string>
+     
+    
+</resources>

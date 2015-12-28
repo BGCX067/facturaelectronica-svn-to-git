@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    
+    
+    <DatePicker
+        android:id="@+id/datePicker_fechafolios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_add_cliente_guardar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_guardar"
+            android:onClick="btn_folio_aceptar"
+            android:src="@drawable/ic_light_aceptar" />
+
+        <ImageButton
+            android:id="@+id/btn_add_cliente_cancelar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_cancelar"
+            android:onClick="btn_folio_cancelar"
+            android:src="@drawable/ic_light_cancelar" />
+    </LinearLayout>
+
+</LinearLayout>

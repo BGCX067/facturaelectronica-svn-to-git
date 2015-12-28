@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        
+    <string name="app_name">Facturas</string>
+	<string name="hint_nombre">NOMBRE</string>
+    <string name="hint_rfc">RFC</string>
+    <string name="hint_curp">CURP</string>
+    <string name="hint_direccion">DIRECCIÓN FISCAL</string>
+    <string name="hint_iva">IVA %</string>
+    <string name="hint_sicofi">NÚMERO SICOFI</string>
+    <string name="hint_factura_folio">FOLIO</string>
+    <string name="hint_factura_lugar">LUGAR</string>
+    
+    <string name="hint_detalles_cantidad">CANTIDAD</string>
+    <string name="hint_detalles_descripcion">DESCRIPCIÓN</string>
+    <string name="hint_detalles_precio">PRECIO UNITARIO</string>
+    
+    
+    <string name="description_qr">Código QR</string>
+    
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_actualizar">Actualizar</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+	<string name="btn_agregar">Nuevo</string>
+	
+	<string name="btn_factura_detalles_agregar">Agregar detalles</string>
+	
+	<string name="menu_activar_factura">Activar Factura</string>
+    
+    <string name="titulo_seccion_misDatos">Mis datos</string>
+    <string name="titulo_seccion_clientes">Clientes</string>
+    <string name="titulo_seccion_facturas">Facturas</string>
+    <string name="titulo_seccion_detalles">Detalles</string>
+    
+    <string name="sutitulo_seccion_folios">Fecha de Folios</string>
+    <string name="sutitulo_seccion_fecha_factura">Fecha de Factura</string>
+    <string name="sutitulo_seccion_facturas">DATOS DE FACTURACIÓN</string>
+    <string name="sutitulo_seccion_facturas_detalles">DETALLES</string>
+    
+	<string name="cotentDescription_folios">MIS FOLIOS</string>
+    
+</resources>

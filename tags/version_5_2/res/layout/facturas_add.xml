@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+     >
+
+   
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:layout_weight="1.0"
+         >
+
+        <Spinner
+            android:id="@+id/spinner_clientes"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+             >
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/et_facturas_add_folio"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_factura_folio"
+                    android:inputType="number" >
+
+                    <requestFocus />
+                </EditText>
+
+                <EditText
+                    android:id="@+id/et_facturas_add_lugar"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_factura_lugar"
+                    android:inputType="textCapCharacters" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TV_fecha"
+                    android:layout_width="fill_parent"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:gravity="center" />
+
+                <ImageButton
+                    android:id="@+id/btn_folios"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="5dip"
+                    android:contentDescription="@string/cotentDescription_folios"
+                    android:onClick="btn_factura_add_fecha"
+                    android:src="@drawable/ic_light_calendar" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/Button2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_light_detalles"
+            android:onClick="btn_add_detalles"
+            android:text="@string/btn_factura_detalles_agregar" />
+
+         <ListView
+        android:id="@+id/lv_detalles"
+        android:layout_width="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        style="@style/ListView2"
+        />
+        
+     
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_add_factura_guardar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_guardar"
+            android:onClick="btn_add_factura_aceptar"
+            android:src="@drawable/ic_light_aceptar" />
+
+        <ImageButton
+            android:id="@+id/btn_add_factura_cancelar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_cancelar"
+            android:onClick="btn_add_factura_cancelar"
+            android:src="@drawable/ic_light_cancelar" />
+    </LinearLayout>
+
+</LinearLayout>

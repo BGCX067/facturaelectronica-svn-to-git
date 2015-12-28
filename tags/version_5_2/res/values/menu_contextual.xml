@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_contextual_clientes">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+    <string-array name="menu_contextual_facturas">
+        <item>Cancelar Factura</item>
+        <item>Editar</item>
+        <item>Eliminar</item>
+        <item>Compartir</item>
+    </string-array>
+     <string-array name="menu_contextual_detalles">
+        <item>Editar</item>
+        <item>Eliminar</item>
+    </string-array>
+
+</resources>

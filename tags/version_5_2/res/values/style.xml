@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   
+    <color name="selected">#0099cc</color>
+    <color name="pressed">#0099cc</color>
+    <color name="normal">#33b5e5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="button_normal">#7f7f7f</color>
+    <color name="button_pressed">#222222</color>
+    <color name="button_selected">#222222</color>
+    
+    <color name="button2_normal">#99CC00</color>
+    <color name="button2_pressed">#669900</color>
+    <color name="button2_selected">#669900</color>
+    
+    
+    <color name="gray">#dddddd</color>
+    <color name="gray_light">#EFEFEF</color>
+    <color name="background">#EFEFEF</color>
+    
+    <color name="divider">#d2d2d2</color>
+    <color name="font_item_header">#000000</color>
+    <color name="font_item_description">#999999</color>
+    <color name="font_item_monto">#669900</color>
+    
+    <style name="MicoDroid_ThemeLight" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/ListView</item>
+        <item name="android:windowBackground">@color/background</item>
+    	<item name="android:colorBackground">@color/background</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:imageButtonStyle">@style/ImageButton</item>
+        <item name="android:editTextStyle">@style/EditText</item>
+        <item name="android:alertDialogStyle">@style/AlertDialog</item>
+    </style>
+    
+    <style name="ImageButton" parent="@android:style/Widget.ImageButton">
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>    
+    
+
+    
+    <style name="AlertDialog" parent="@android:style/Theme.Dialog">
+
+        
+        
+		<item name="android:windowBackground">@color/gray</item>
+   		<item name="android:colorBackground">@color/gray</item>
+		<item name="android:textSize">14sp</item>
+		
+		
+		 
+		<item name="android:fullBright">@android:color/transparent</item>  
+        <item name="android:fullDark">@android:color/black</item>  
+        <item name="android:topDark">@color/black</item>  
+        <item name="android:centerBright">@color/gray</item>  
+        <item name="android:centerDark">@color/gray</item>  
+        <item name="android:centerMedium">@color/gray</item>  
+        <item name="android:bottomBright">@color/gray</item>  
+        <item name="android:bottomDark">@color/gray</item>  
+        <item name="android:bottomMedium">@color/gray</item>  
+            	
+         <item name="android:windowFrame">@null</item>
+            	
+        
+    </style>
+     
+    <style name="EditText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+     <style name="ListView2">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:cacheColorHint">@color/gray</item>
+        <item name="android:listSelector">@drawable/list2_selector</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="android:dividerHeight">1dip</item>
+         <item name="android:orientation">horizontal</item>
+    </style>
+    
+    <style name="ListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:cacheColorHint">@color/gray</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:divider">@color/divider</item>
+        <item name="android:dividerHeight">1dip</item>
+    </style>
+  
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:padding">15dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+    
+    <style name="Button2" parent="@android:style/Widget.Button">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button2_selector</item>
+    </style>
+    
+    
+    
+    <style name="list_item" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    
+    <style name="list_item_imagen_detalles" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/list_selector_imagen_detalles</item>
+    </style>
+    
+    <style name="list_item_imagen" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/list_selector_imagen</item>
+    </style>
+
+    <style name="item" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="item.nombre">
+        <item name="android:textColor">@drawable/list_selector_font_header</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="item.rfc">
+        <item name="android:textColor">@drawable/list_selector_font_description</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    
+    <style name="item.fecha">
+        <item name="android:textColor">@drawable/list_selector_font_header</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">10dp</item>
+        
+    </style>
+
+    <style name="item.monto">
+        <item name="android:textColor">@drawable/list_selector_font_monto</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:paddingRight">10dp</item>        
+    </style>
+    
+     <style name="item.loader">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:padding">15dp</item>
+    </style>
+</resources>

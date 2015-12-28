@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+     >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/et_cliente_nombre"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_nombre"
+            android:inputType="textCapCharacters"
+             >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_cliente_rfc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_rfc"
+            android:inputType="textCapCharacters" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/et_cliente_direccion"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="top"
+            android:hint="@string/hint_direccion"
+            android:inputType="textCapCharacters|textMultiLine"
+            android:lines="2"
+            android:scrollHorizontally="false" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btn_add_cliente_guardar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_guardar"
+            android:src="@drawable/ic_light_aceptar"
+            android:onClick="btn_aceptar"
+             />
+
+        <ImageButton
+            android:id="@+id/btn_add_cliente_cancelar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/btn_cancelar"
+            android:src="@drawable/ic_light_cancelar"
+            android:onClick="btn_cancelar"
+             />
+    </LinearLayout>
+
+</LinearLayout>    

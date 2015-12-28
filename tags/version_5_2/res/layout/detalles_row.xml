@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/list_item" >
+
+    <LinearLayout style="@style/list_item_imagen_detalles" >
+
+        <ImageView
+            android:id="@+id/image_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/titulo_seccion_detalles"
+            android:src="@drawable/ic_light_detalles" />
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="48dip"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        
+        >
+    
+    
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="15dp" >
+
+    
+
+        <TextView
+            android:id="@+id/tv_detalles_descripcion"
+            style="@style/item.nombre" />
+    </LinearLayout>
+    
+    
+    
+     <LinearLayout
+        android:layout_width="120dp"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="15dp" >
+
+       
+        <TextView
+            android:id="@+id/tv_detalles_precio"
+            style="@style/item.monto" />
+    </LinearLayout>
+    
+    
+    
+    
+    </LinearLayout>
+
+</LinearLayout>
